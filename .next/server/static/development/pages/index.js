@@ -88,10 +88,21 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./node_modules/bootstrap/dist/css/bootstrap.min.css":
+/*!***********************************************************!*\
+  !*** ./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
 
 /***/ "./pages/index.js":
 /*!************************!*\
@@ -106,48 +117,246 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "D:\\Projetos\\Next.JsApi\\pages\\index.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
 
 
 const Index = ({
   dados
-}) => __jsx("div", {
+}) => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 9
   },
   __self: undefined
-}, __jsx("h1", {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 10
   },
   __self: undefined
-}, "Palestrantes"), __jsx("ul", {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 11
+  },
+  __self: undefined
+}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, ".col-3"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "auto",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, ".col-auto - variable width content"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, ".col-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, ".col-6"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, ".col-6")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "6",
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  xs: "6",
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, ".col-sm-4")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  sm: {
+    size: 6,
+    order: 2,
+    offset: 1
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, ".col-sm-6 .order-sm-2 .offset-sm-1")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  sm: "12",
+  md: {
+    size: 6,
+    offset: 3
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, ".col-sm-12 .col-md-6 .offset-md-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  sm: {
+    size: 'auto',
+    offset: 1
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, ".col-sm-auto .offset-sm-1"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+  sm: {
+    size: 'auto',
+    offset: 1
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, ".col-sm-auto .offset-sm-1")), __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "Palestrantes"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Alert"], {
+  color: "primary",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, "This is a primary alert \u2014 check it out!"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+  color: "danger",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, "Danger!"), __jsx("ul", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
   },
   __self: undefined
 }, dados.map(palestrante => __jsx("li", {
   key: palestrante.id_palestrante,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 51
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 52
   },
   __self: undefined
 }, palestrante.nome_palestrante), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 53
   },
   __self: undefined
 }, palestrante.cargo_palestrante)))));
@@ -164,7 +373,7 @@ Index.getInitialProps = async () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -195,6 +404,17 @@ module.exports = require("axios");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "reactstrap":
+/*!*****************************!*\
+  !*** external "reactstrap" ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("reactstrap");
 
 /***/ })
 
