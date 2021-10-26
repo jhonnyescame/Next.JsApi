@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -119,8 +119,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
 /* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "@fortawesome/fontawesome-svg-core");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "@fortawesome/free-solid-svg-icons");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "D:\\Projetos\\Next.JsApi\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -128,139 +134,143 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__["library"].add(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_5__["fas"]);
+
+
 const Index = ({
   dados
-}) => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}) => __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Container"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
-}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 18
   },
   __self: undefined
-}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "3",
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 20
   },
   __self: undefined
-}, ".col-3"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "auto",
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21
   },
   __self: undefined
-}, ".col-auto - variable width content"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "3",
+}, ".col"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
   },
   __self: undefined
-}, ".col-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, ".col")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "6",
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}, ".col-6"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "6",
+}, ".col-3"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "auto",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
   },
   __self: undefined
-}, ".col-6")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, ".col-auto - variable width content"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 27
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  xs: "6",
-  sm: "4",
+}, ".col-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 29
   },
   __self: undefined
-}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   xs: "6",
-  sm: "4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 30
   },
   __self: undefined
-}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  sm: "4",
+}, ".col-6"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "6",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
   },
   __self: undefined
-}, ".col-sm-4")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, ".col-6")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "6",
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  xs: "6",
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, ".col-6 .col-sm-4"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  sm: "4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, ".col-sm-4")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   sm: {
     size: 6,
     order: 2,
@@ -268,16 +278,16 @@ const Index = ({
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 39
   },
   __self: undefined
-}, ".col-sm-6 .order-sm-2 .offset-sm-1")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, ".col-sm-6 .order-sm-2 .offset-sm-1")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 41
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   sm: "12",
   md: {
     size: 6,
@@ -285,78 +295,104 @@ const Index = ({
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 42
   },
   __self: undefined
-}, ".col-sm-12 .col-md-6 .offset-md-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+}, ".col-sm-12 .col-md-6 .offset-md-3")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 44
   },
   __self: undefined
-}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
   sm: {
     size: 'auto',
     offset: 1
   },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40
-  },
-  __self: undefined
-}, ".col-sm-auto .offset-sm-1"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
-  sm: {
-    size: 'auto',
-    offset: 1
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 41
-  },
-  __self: undefined
-}, ".col-sm-auto .offset-sm-1")), __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 43
-  },
-  __self: undefined
-}, "Palestrantes"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Alert"], {
-  color: "primary",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 45
   },
   __self: undefined
-}, "This is a primary alert \u2014 check it out!"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-  color: "danger",
+}, ".col-sm-auto .offset-sm-1"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
+  sm: {
+    size: 'auto',
+    offset: 1
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, ".col-sm-auto .offset-sm-1")), __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 48
   },
   __self: undefined
+}, "Palestrantes"), __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+  icon: "coffee",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}), __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}), __jsx("hr", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}), __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+  icon: "award",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Alert"], {
+  color: "primary",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
+}, "This is a primary alert \u2014 check it out!"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+  color: "danger",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
 }, "Danger!"), __jsx("ul", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49
+    lineNumber: 56
   },
   __self: undefined
 }, dados.map(palestrante => __jsx("li", {
   key: palestrante.id_palestrante,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
+    lineNumber: 58
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52
+    lineNumber: 59
   },
   __self: undefined
 }, palestrante.nome_palestrante), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 60
   },
   __self: undefined
 }, palestrante.cargo_palestrante)))));
@@ -373,7 +409,7 @@ Index.getInitialProps = async () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -382,6 +418,39 @@ Index.getInitialProps = async () => {
 
 module.exports = __webpack_require__(/*! D:\Projetos\Next.JsApi\pages\index.js */"./pages/index.js");
 
+
+/***/ }),
+
+/***/ "@fortawesome/fontawesome-svg-core":
+/*!****************************************************!*\
+  !*** external "@fortawesome/fontawesome-svg-core" ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/fontawesome-svg-core");
+
+/***/ }),
+
+/***/ "@fortawesome/free-solid-svg-icons":
+/*!****************************************************!*\
+  !*** external "@fortawesome/free-solid-svg-icons" ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/free-solid-svg-icons");
+
+/***/ }),
+
+/***/ "@fortawesome/react-fontawesome":
+/*!*************************************************!*\
+  !*** external "@fortawesome/react-fontawesome" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 

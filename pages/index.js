@@ -2,6 +2,11 @@ import React from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(fas);
+
 import { Button, Alert, Container, Row, Col } from 'reactstrap';
 
 
@@ -42,9 +47,11 @@ const Index = ({dados}) => (
       </Row>
         <h1>Palestrantes</h1>
         {/* {console.log(dados)} */}
+        <FontAwesomeIcon icon="coffee" /><br /><hr/>
+        <FontAwesomeIcon icon="award" />
         <Alert color="primary">
-        This is a primary alert — check it out!
-      </Alert>
+            This is a primary alert — check it out!
+        </Alert>
         <Button color="danger">Danger!</Button>
         <ul>
             {dados.map(palestrante =>(
